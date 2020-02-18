@@ -1,43 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<html>
+    <head>
+        <title>Clarity</title>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+        <header>
+  
+            <a class="logo" href="#">Clarity</a>
+            
+            <input id="nav" type="checkbox">
+            <label for="nav"></label>
+            
+            <nav>
+              <ul>
+                <li><a href="#">How it Works</a></li>
+                <li><a href="#">FAQ</a></li>
+                <button type="button" class="button">Sign In</button>
+              </ul>
+            </nav> 
+            
+        </header>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+        <div class="first_page">
+            <div class="text_first_page">
+                <p class="text_first_title">COUNTERFEIT PROTECTION MADE EASY</p>
+                <p class="text_first_description">Our tool makes it easy for customers to verify and authenticate your cannabis products so you can get the most sales and credibility</p>
+                <button type="button" class="get_started_button">Get Started</button>
+            </div>
+            <div class="landing_page_image">
+                <img src="final.png" alt="Verify cannabis product">
+            </div>
+        </div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+        <div class="information_page">
+            <div class="title_center">
+                <p class="information_title">Normally, Counterfeit Protection is a Pain to Solve</p>
+            </div>
+            <p class="information_subtext">With millions of counterfeit products in the cannabis industry you’ll need some help protecting your brand and customers</p>
+            <div class="information_page_info">
+                <p class="brand">Brand & Counterfeit Protection</p>
+                <p class="authentic">Authentic Verification by Customers</p>
+                <p class="brand_info">Clarity secures your products with a unique qr code linked to our product authentication system to proactively prevent counterfeits of clarity-enabled products from reaching customers and helping you save money.</p>
+                <p class="authentic_info">Clarity allows any customer to verify and authenticate any Clarity-enabled product, wherever the product is sold. Each one of our tamper proof security seal is connected to our online platform.</p>
+                <p class="vendor">Vendor Clarity</p>
+                <p class="customer">Customer Clarity</p>
+                <p class="vendor_info">With our easy-to-use online platform, you can add detailed product information and easily track and manage your security seals.</p>
+                <p class="customer_info">Using our secutiy seals will also enable your customers to authenticate products to use clarity to communicate product information.</p>
+            </div>
+        </div>
+
+        <div class="how_it_works">
+            <p class="svg_title">How it Works</p>
+            <div class="svgs">
+                <img class="phone" src="Svgs/phone.png" alt="Enroll your products in Clarity">
+                <img class="next" src="Svgs/next.svg" alt="Enroll your products in Clarity">
+                <img class="qr" src="Svgs/qr.png" alt="Enroll your products in Clarity">
+                <img class="next" src="Svgs/next.svg" alt="Enroll your products in Clarity">
+                <img class="cart" src="Svgs/cart.svg" alt="Enroll your products in Clarity">
+            </div>
+            <div class="svg_text">
+                <p class="phone_text">Enroll your products in Clarity</p>
+                <p class="qr_text">Apply Clarity codes on your products</p>
+                <p class="cart_text">Customers can scan and authenticate your products</p>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <p class="footer_clarity">Clarity</p>
+        
+            <p class="footer_faq"><a href="#">FAQ</p>
+            <p class="footer_signin"><a href="#">Sign In</p>
+            <!-- <nav>
+                <ul>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Sign In</a></li>
+                </ul>
+            </nav>  -->
+        </div>
+    </body>
 </html>
